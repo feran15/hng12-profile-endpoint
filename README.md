@@ -21,7 +21,9 @@ alongside a **dynamic cat fact** fetched from the [Cat Facts API](https://catfac
     "stack": "Node.js/Express"
   },
   "timestamp": "2025-10-16T12:00:00.000Z",
-
+  "fact": "Cats can rotate their ears 180 degrees."
+}
+```
 ⚙️ Tech Stack
 
 . Node.js
@@ -34,17 +36,15 @@ alongside a **dynamic cat fact** fetched from the [Cat Facts API](https://catfac
 
 . Dotenv
 
-
 🧩 Features
 
-Returns user info (email, name, backend stack)
+  . Returns user info (email, name, backend stack)
 
-Fetches a random cat fact dynamically from an external API
+. Fetches a random cat fact dynamically from an external API
 
-Handles API timeouts and errors gracefully
+. Handles API timeouts and errors gracefully
 
-Returns a fresh timestamp (UTC, ISO 8601) on each request
+. Returns a fresh timestamp (UTC, ISO 8601) on each request
 
-Proper JSON formatting and HTTP headers
-  "fact": "Cats can rotate their ears 180 degrees."
-}
+. Proper JSON formatting and HTTP headers
+45
